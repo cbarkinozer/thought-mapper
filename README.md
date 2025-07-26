@@ -2,90 +2,91 @@
 
 In an era of rapid information growth, we are generating content faster than we can organize it. Thought Mapper is a project designed to tackle this challenge by creating an automated system to analyze and structure textual data, transforming it into a connected web of knowledge.
 
-The first implementation of this vision focuses on helping users understand their own digital footprint by converting their Twitter archive into a personal Zettelkasten within Obsidian. By automatically categorizing, clustering, and finding semantic similarities between tweets, this tool provides a unique way to visualize and connect thoughts and ideas shared over time.
+This initial version focuses on helping users understand their own digital footprint by converting their Twitter archive into a personal Zettelkasten within Obsidian. By automatically clustering tweets into emergent themes and finding semantic similarities, this tool provides a unique way to visualize and connect thoughts and ideas shared over time.
 
 The long-term goal is to evolve Thought Mapper into a versatile tool that can analyze and map any collection of text—be it personal notes, company documentation, or even code repositories—to help individuals and teams navigate and generate insights from their knowledge bases.
 
-## Project Goals
+**Project Status: Core functionality is complete. The script successfully generates an Obsidian vault from a `tweets.js` file.**
 
-1.  **Data Ingestion:** Securely process a user's complete Twitter archive as the initial data source.
-2.  **AI-Powered Analysis:** Develop a robust pipeline using NLP and Machine Learning to categorize, cluster, and identify semantic relationships between tweets with an initial accuracy target of ~70%.
-3.  **Zettelkasten Generation:** Format the analyzed data for seamless import into Obsidian, creating an interconnected knowledge graph where each tweet is a single, atomic note.
-4.  **User-Friendly Automation:** Create a simple, automated system that is accessible to a wider audience, with future potential for public deployment.
+## How to Use (Getting Started)
 
----
+Follow these steps to generate your own thought map.
 
-## Phase 1: Data Ingestion - Getting Your Tweets
+### 1. Get Your Twitter Archive
 
-The first step is to obtain your Twitter data. Twitter allows you to download an archive of all your activity on the platform.
+Before you begin, you need the `tweets.js` file that contains all your tweet data.
 
-### **To-Do:**
+*   Navigate to your Twitter "Settings and privacy".
+*   Go to "Your account" and select "Download an archive of your data".
+*   You will receive an email when your archive is ready. Download the `.zip` file.
+*   Extract the archive and find the **`tweets.js`** file inside the `data` subfolder.
 
-*   **Request Twitter Archive:**
-    *   Navigate to your Twitter "Settings and privacy".
-    *   Go to "Your account" and select "Download an archive of your data".
-    *   You will be prompted to verify your password and complete a verification step.
-    *   Click "Request archive". It may take up to 24 hours for Twitter to prepare your data.
-*   **Download and Understand the Archive:**
-    *   You will receive an email and a push notification when your archive is ready.
-    *   Download the `.zip` file from the link provided.
-    *   The primary data source for this project is the `tweets.js` file located within the "data" subfolder of your archive.
+### 2. Set Up the Project
 
----
+*   **Clone the Repository:**
+    ```bash
+    git clone https://github.com/cbarkinozer/thought-mapper.git
+    cd thought-mapper
+    ```
+*   **Place Your Data:** Copy the `tweets.js` file you downloaded into the root of this `thought-mapper` project folder.
 
-## Phase 2: AI-Powered Analysis
+*   **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-With your Twitter archive, the next step is to process and analyze the content of your tweets. This involves a multi-layered approach using natural language processing (NLP) and machine learning models. The aim is not perfection, but to provide a high-quality initial structure for your knowledge base.
+### 3. Run the Analysis
 
-### **To-Do:**
+Execute the main script from your terminal. The process may take a few minutes depending on the number of tweets and your computer's performance.
 
-*   **Tweet Extraction and Cleaning:**
-    *   **Sub-task:** Write a Python script to parse the `tweets.js` file and extract the full text of each tweet.
-    *   **Sub-task:** Clean the tweet text by removing noise like URLs and mentions, while retaining hashtags as potential metadata.
-*   **Automated Categorization & Clustering:**
-    *   **Sub-task:** Employ a hybrid approach of topic modeling (e.g., LDA, transformer-based methods) and clustering algorithms (e.g., K-Means, DBSCAN) to discover both broad themes and granular groupings within your tweets. The value lies in the system's ability to identify emergent, fine-grained categories automatically.
-*   **Semantic Relation Mapping:**
-    *   **Sub-task:** Utilize sentence transformers (e.g., from the Hugging Face library) to generate vector representations (embeddings) of your tweets.
-    *   **Sub-task:** Calculate the cosine similarity between tweet vectors to identify semantically similar, but not necessarily identically worded, thoughts.
-    *   **Sub-task:** Define a similarity threshold to establish meaningful "links" or "relations" that will form the connections in your knowledge graph.
+```bash
+python app.py
+```
 
----
+The script will print its progress as it moves through the pipeline. When it's finished, you will have a new folder named `obsidian_vault` in your project directory.
 
-## Phase 3: Zettelkasten Generation for Obsidian
+### 4. Open Your Knowledge Graph in Obsidian
 
-The goal of this phase is to transform your analyzed tweets into a format that Obsidian can understand, creating a connected web of notes that you own and control.
+*   Open the Obsidian application.
+*   Click **"Open another vault"**.
+*   Select **"Open folder as vault"**.
+*   Navigate to and select the `obsidian_vault` folder that was just created.
 
-### **To-Do:**
-
-*   **Define the Zettelkasten Note Format:**
-    *   **Sub-task:** Each tweet will become a separate Markdown note.
-    *   **Sub-task:** The note's title will be a unique identifier (e.g., timestamp + first few words).
-    *   **Sub-task:** The body will contain the full text of the tweet.
-    *   **Sub-task:** Metadata will be included in YAML frontmatter:
-        *   `date`: The original date of the tweet.
-        *   `category`: The assigned category from Phase 2.
-        *   `cluster_id`: The cluster ID from Phase 2.
-        *   `source_link`: A link to the original tweet.
-*   **Generate Inter-Note Links:**
-    *   **Sub-task:** Based on the semantic similarity analysis (Phase 2), automatically generate wiki-links between related tweet-notes. If Tweet A is highly similar to Tweet B, the note for A will contain a link `[[Note B's Title]]`, and vice-versa.
-*   **Create the Batch Import Data:**
-    *   **Sub-task:** Write a script to generate a folder of `.md` files, with each file representing a tweet-note, formatted and linked as defined above, ready to be opened as an Obsidian vault.
+You can now explore your tweets as a network of interconnected notes. Use the Graph View in Obsidian to see a visual representation of your thought clusters!
 
 ---
 
-## Phase 4: Pipeline and Accessibility
+## How It Works: The AI Pipeline
 
-This final phase focuses on making the entire process seamless for any user and setting the stage for future development.
+The script transforms your raw tweets into a connected knowledge graph through a four-stage AI pipeline.
 
-### **To-Do:**
+### Stage 1: Ingestion and Cleaning
 
-*   **Create a Unified Pipeline:**
-    *   **Sub-task:** Combine all scripts into a single, executable pipeline that takes the user's Twitter archive `.zip` file as input and produces the folder of Markdown files as output.
-*   **Develop a User Interface (Optional but Recommended):**
-    *   **Sub-task:** For broader accessibility, create a simple graphical user interface (GUI) or a web-based interface (using Streamlit or Flask) where a user can upload their archive and trigger the process.
-*   **Containerization and Deployment:**
-    *   **Sub-task:** Containerize the application using Docker to ensure it runs consistently across different environments.
-*   **Public Deployment:**
-    *   **Sub-task:** Deploy the containerized application to a cloud platform (e.g., Google Cloud Run, Heroku) to make it publicly accessible.
-*   **Documentation and Open Sourcing:**
-    *   **Sub-task:** Create comprehensive documentation and open-source the project on GitHub to invite community contributions.
+The process begins by reading the `tweets.js` file. Each tweet's text is extracted and passed through a cleaning function that removes digital noise (like URLs and mentions) which could interfere with the analysis. This ensures the AI models focus only on the meaning of your words.
+
+### Stage 2: Semantic Embedding
+
+This is the core of the AI analysis. We use a powerful **Sentence Transformer** model (`all-MiniLM-L6-v2`) to convert each cleaned tweet into a high-dimensional vector (an "embedding"). These vectors mathematically represent the semantic meaning of the text, allowing tweets with similar ideas—even if they use different words—to be numerically close to each other.
+
+### Stage 3: Thematic Clustering
+
+With all tweets represented as vectors, we perform **community detection clustering**. This algorithm analyzes the similarity between all tweet embeddings and automatically groups them into thematic clusters. Unlike other methods, we do not need to specify the number of topics beforehand; the system discovers them organically. Through experimentation, a similarity **threshold of 0.50** was chosen as the optimal value to group a significant portion of tweets into coherent themes without being overly strict.
+
+### Stage 4: Zettelkasten Generation
+
+In the final stage, the script generates the `.md` files for your Obsidian vault:
+1.  **Note Creation:** Each tweet becomes a single Markdown file.
+2.  **Metadata:** YAML frontmatter is added to each note, containing the tweet's original date, the `Cluster_ID` it belongs to (or `Outlier` if it's unique), and a link to the original tweet.
+3.  **Inter-linking:** For each note, the script calculates its similarity to all other notes and automatically inserts `[[wiki-links]]` to the most closely related thoughts, creating the connective tissue of your knowledge graph.
+
+---
+
+## Future Development
+
+This project provides a solid foundation. Future versions could include:
+
+*   **LLM-Powered Topic Naming:** Use a Large Language Model (like GPT or Llama) to automatically generate descriptive names for each cluster (e.g., "AI and the Future" instead of "Cluster_1").
+*   **Guided Clustering Mode:** Allow users to provide their own category labels (e.g., "Work," "Philosophy") and have the system sort tweets into those predefined buckets.
+*   **Advanced Clustering Algorithms:** Implement more sophisticated algorithms like HDBSCAN for potentially more nuanced cluster detection.
+*   **Web User Interface:** Create a simple UI with Streamlit or Flask where a user can upload their archive file directly, making the tool more accessible.
+*   **Support for More Data Sources:** Expand the pipeline to analyze other text sources, such as personal notes, documents, or even other social media archives.
