@@ -1,0 +1,618 @@
+Ocak 2024
+1.Self-Refine: Kendi Kendine Geri Bildirimle Yinelemeli İyileştirme
+[https://lnkd.in/d74wY36X]
+2.Generative Artificial Intelligence for Code Operations
+[https://lnkd.in/dvR6NRFH]
+3.6 Üretken Yapay Zeka Sohbet Türü
+[https://lnkd.in/d8KwqKSK]
+4.LinkBERT: Dil Modellerini Belge Linkleriyle Pretrain Etmek
+[https://lnkd.in/dS6jTRN9]
+5.LLM’ler Makaleler Hakkında Yararlı Geri Bildirim Sağlayabilir Mi?
+[https://lnkd.in/dQ7jucaa]
+6.Phi-1: Tüm İhtiyacınız Olan Ders Kitapları Makalesi
+[https://lnkd.in/dc9Ez5Dy]
+7.Devasa API’lerle Bağlantılı Büyük Dil Modeli Gorilla LLM
+[https://lnkd.in/dzqmkaqg]
+8.LLM’leri Bilgi Grafikleri ile Güçlendirmek
+[https://lnkd.in/dAvtRkXM]
+9.AutoGen’in Çok Ajanlı Konuşma Yapısıyla Yeni Nesil LLM Uygulamaları
+[https://lnkd.in/d2EM2WK3]
+
+Şubat 2024
+1.Dil Modellerini Anlaşılabilir Bileşenlere Ayırmak
+Bu çalışmada, derin öğrenme ağındaki nöronlar farklı görevlerdeki aktive olma sıklıklarına göre LLM yardımı ile kümelendirilmektedirler. Böylece bu ağda şu nöronlar şu işlevden sorumludur gibi yorumlar yapılabilmektedir. Bu yetenek derin öğrenme modellerinin davranışını içeriden izlememize ve yönlendirmemize olanak tanıyıp, kurumsal ve toplumsal benimseme için gerekli olan güvenliği ve güvenilirliği arttırabilir.
+[https://cbarkinozer.medium.com/dil-modellerini-anla%C5%9F%C4%B1labilir-bile%C5%9Fenlere-ay%C4%B1rmak-f0a894860c1b]
+2.Toolformer ile Araç Kullanmayı Öğrenen Dil Modelleri
+Bu makalede, dil modellerinin az örnek veya talimatla yeni görevleri çözme becerilerine odaklanılıyor. Ayrıca, basit aritmetik veya olgusal arama gibi temel işlevlerde daha küçük modellerin üstünlüğü tartışılıyor. Makale, dil modellerinin basit API'ler aracılığıyla harici araçları kullanmayı öğrenebileceklerini ve her iki dünyanın da en iyisine ulaşabileceklerini öne sürüyor. Toolformer adlı model, API'leri çağrılacakları, aktarılacak argümanları ve sonuçların gelecekteki tahminlere nasıl dahil edileceğine karar verebilecek şekilde eğitilmiştir. Toolformer, hesap makinesi, soru-cevap sistemi, arama motoru, çeviri sistemi ve takvim gibi çeşitli araçları bir arada kullanarak zero-shot performansını önemli ölçüde geliştirirken, temel dil modelleme yeteneklerinden ödün vermemektedir.
+[https://cbarkinozer.medium.com/toolformer-ile-ara%C3%A7-kullanmay%C4%B1-%C3%B6%C4%9Frenen-dil-modelleri-3fce4807bd9f]
+3.Regüle Edilmemiş Yapay Zeka Teknolojileri Kullanmanın Tehlikeleri Nelerdir?
+Yapay zeka'da regülasyonların önemini anlamak için detaylı bir literatür taraması yaptım ve bulduğum sonuçları sizler için hazırladım. Hazırlaması 1-2 ay kadar süren bu yazımda AI ve regülasyon ile alakalı son 5 yıldaki 70'den fazla makaleyi gözden geçirdim. Bu başlıklar şunlardır: “Yapay Zekada Önyargı ve Ayrımcılık (Bias and Discrimination)”, “Yapay Zekada Gizlilik İhlalleri (Privacy Concerns)”, “Yapay Zekanın Çevresel Etkisi (Environmental Impact)”, “Yapay Zekada Güvenlik Riskleri (Security Concerns)”, “Yapay Zekada Otonom Silahlar (Autonomous Weapons)”, “Yapay Zekada Manipülasyon ve Propaganda (Manipulation and Propaganda), “ “Yapay Zekada Ekonomik Yoğunlaşma (Economic Concentration)”, “Yapay Zekanın Etik Kaygıları (Ethical Concerns)”, “Açıklanabilir Yapay Zeka (Explainable)”, “Sorumlu Yapay Zeka (Responsible)”, “Yapay Zeka Güvenliği (Safety)”, “Düzenlenmeyen Yapay Zeka (Unregulated)”, “Hesap Verebilir Yapay Zeka (Accountable)” ve “Üretken Yapay Zeka Düzenlemeleri (Generative AI Regulations).”
+[https://cbarkinozer.medium.com/reg%C3%BCle-edilmemi%C5%9F-yapay-zeka-teknolojileri-kullanman%C4%B1n-tehlikeleri-nelerdir-fa465da15491]
+4.Python’un Benzersiz Özellikleri Nelerdir?
+4 yazıdan oluşan bu seride amacım halihazırda programlamayı bilenlere Python'a özgü olan özellikleri tanıtmaktı.
+Bölüm 1: [https://cbarkinozer.medium.com/pythonun-benzersiz-%C3%B6zellikleri-nelerdir-b%C3%B6l%C3%BCm-1-a46371d8e9d3]
+Bölüm 2: [https://cbarkinozer.medium.com/pythonun-benzersiz-%C3%B6zellikleri-nelerdir-b%C3%B6l%C3%BCm-2-0cd4447ef3e4]
+Bölüm 3: [https://cbarkinozer.medium.com/pythonun-benzersiz-%C3%B6zellikleri-nelerdir-b%C3%B6l%C3%BCm-3-73a23e3bc355]
+Bölüm 4: [https://cbarkinozer.medium.com/pythonun-benzersiz-%C3%B6zellikleri-nelerdir-b%C3%B6l%C3%BCm-4-son-9a5e23641df1]
+5.Git ile Versiyon Kontrolü Nasıl Yapılır?
+Git ile versiyon kontrolü yapma konusunu yeniden hatırladığımız bir yazı.
+[https://cbarkinozer.medium.com/git-ile-versiyon-kontrol%C3%BC-nas%C4%B1l-yap%C4%B1l%C4%B1r-846cf18a2c53]
+6.Büyük Eylem Modelleri (LAM) Nedir?
+Bu yazımda yeni ortaya çıkan LAM kavramının peşine düştüm ve bulduklarımı sizler için derledim. Rabbit R1 ile ortaya çıkan bu terime dair çok fazla kaynak bulunmamakta. Genelde LLM kullanan ajanlar ile eş anlamlı olarak kullanılmakta. Fark olarak insanları görerek taklit edebileceğine dair iddialar bulunmakta ancak destekleyen bir kaynak veya çalışma bulamadım.
+[https://cbarkinozer.medium.com/b%C3%BCy%C3%BCk-eylem-modelleri-lam-nedir-2abb6ce32674]
+
+Mart 2024
+1. Zincir Tabanlı İstem Mühendisliği Yöntemlerindeki Gelişmeler
+İstem mühendisliğindeki yeniliklerin, özellikle X zinciri (chain-of-X) yöntemlerindeki gelişmeleri ortaya çıkaracağız (33 dk).
+[https://cbarkinozer.medium.com/zincir-tabanl%C4%B1-i%CC%87stem-m%C3%BChendisli%C4%9Fi-y%C3%B6ntemlerindeki-geli%C5%9Fmeler-9afce1c6b4a1]
+2. StarCoder2 Makale İncelemesi
+“StarCoder 2 and The Stack v2: The Next Generation” makalesinin özeti (14 dk).
+[https://cbarkinozer.medium.com/starcoder2-makale-i%CC%87ncelemesi-12fd8bbfac51]
+3. Felsefeye nereden başlayabilirim? — 1. Bölüm
+Edinburg Üniversitesi Felsefeye Giriş Coursera kursunda öğrendiklerimi paylaştığım serinin ilk bölümü (14 dk).
+[https://cbarkinozer.medium.com/felsefeye-nereden-ba%C5%9Flayabilirim-1-b%C3%B6l%C3%BCm-279a19eb8233]
+4. Stres Nasıl Yönetilir?
+Stresi tanıyalım ve nasıl fazla stresle başa çıkacağımızı öğrenelim (4 dk).
+[https://cbarkinozer.medium.com/stres-y%C3%B6netimi-a280a529dc9b]
+5. Vektör Veritabanları: Yerleştirmelerden Uygulamalara
+Deeplearning.ai’nin “Vector Databases: from Embeddings to Applications” kursunun Türkçe özeti (12 dk).
+[https://cbarkinozer.medium.com/vekt%C3%B6r-veritabanlar%C4%B1-yerle%C5%9Ftirmelerden-uygulamalara-c2b1e23909c2]
+6. LLama2 ile İstem Mühendisliği
+Deeplearning.ai’ınn “Prompt Engineering with Llama 2” kursunun Türkçe özeti (22 dk).
+[https://cbarkinozer.medium.com/lama-2-ile-i%CC%87stem-m%C3%BChendisli%C4%9Fi-ff66305b0efa]
+7. PyTorch Ustalık Serisi — Bölüm 2
+PyTorch ile sinir ağları oluşturmak ve eğitmek için kapsamlı bir kılavuz olması için başladığım serinin 2. bölümü (10 dk).
+[https://cbarkinozer.medium.com/pytorch-ustal%C4%B1k-serisi-b%C3%B6l%C3%BCm-2-036c30c47b8b]
+8. Finansal zenginlik nasıl yaratılır?
+“Zengin baba yoksul baba” kitabının özeti (19 dk).
+[https://cbarkinozer.medium.com/finansal-zenginlik-nas%C4%B1l-yarat%C4%B1l%C4%B1r-6ecacb88b592]
+9. Huggingface ile Açık Kaynak Modeller Nasıl Kullanılır?
+Deeplearning.ai sitesindeki “Open Source Models with Huggingface” kursunun Türkçe özeti (14 dk).
+[https://cbarkinozer.medium.com/huggingface-ile-a%C3%A7%C4%B1k-kaynak-modeller-nas%C4%B1l-kullan%C4%B1l%C4%B1r-e6c284d52d98]
+10. Joel Greenblatt’a Göre Borsada Nasıl Üstün Getiri Elde Edilebilir?
+Joel Greenblat’ın Piyasayı Altüst Eden Küçük Kitabı’nın özeti (20 dk).
+[https://cbarkinozer.medium.com/joel-greenblatta-g%C3%B6re-borsada-nas%C4%B1l-%C3%BCst%C3%BCn-getiri-elde-edilebilir-9b8833cbdb7f]
+
+Nisan 2024
+1. Bilgi Grafikleri Kullanarak Nasıl RAG Yapılır?
+Deeplearning.ai sitesindeki “Knowledge Graphs for RAG” kursunun Türkçe özetidir (24 dk).
+[https://cbarkinozer.medium.com/bilgi-grafikleri-kullanarak-nas%C4%B1l-rag-yap%C4%B1l%C4%B1r-aac3f6d12307]
+2. İstatistiğe Giriş
+Olasılık teorisi, Kolmogorov Aksiyomları, Olasılık Dağılımları, Boyutsallık Sorunları, Temel Bileşen Analizi ve Diskriminant Analizini öğreniyoruz (30 dk).
+[https://cbarkinozer.medium.com/i%CC%87statisti%C4%9Fe-giri%C5%9F-a6590fcdeb1c]
+3. İngilizcemi Nasıl Geliştirebilirim?
+IELTS sınavına hazırlanırken aldığım notlarımı paylaşıyorum (31 dk).
+[https://cbarkinozer.medium.com/i%CC%87ngilizcemi-nas%C4%B1l-geli%C5%9Ftirebilirim-e8a902d42be1]
+4. RAG Uygulamaları Nasıl İyileştirilir?
+RAG (Retrieval Augmented Generation) projenizin cevap kalitesini nasıl arttırabileceğinizi konuşacağız (7 dk).
+[https://cbarkinozer.medium.com/rag-uygulamalar%C4%B1-nas%C4%B1l-i%CC%87yile%C5%9Ftirilir-c3dac2c4cfd7]
+5. Temel İstatistik Terimleri Nelerdir?
+Ortalama(mean), medyan(median), çeyreklik(quantile), varyans(variance), çarpıklık(skewness) ve basıklık(kurtosis) terimlerinin ne olduklarını öğreneceğiz (15 dk).
+[https://cbarkinozer.medium.com/temel-i%CC%87statistik-terimleri-nelerdir-c9675c1241f4]
+6. PyTorch Ustalık Serisi — Bölüm 3
+PyTorch ile sinir ağları oluşturmak ve eğitmek için kapsamlı bir kılavuz olması için başladığım serinin 3. bölümü (8 dk).
+[https://cbarkinozer.medium.com/pytorch-ustal%C4%B1k-serisi-b%C3%B6l%C3%BCm-3-4b78206b543f]
+7. LLM Uygulamaları için Yapılandırılmamış Verilerin Ön İşlemesi
+Deeplearningai’ın “Preprocessing Unstructured Data for LLM Applications” kısa kursunun Türkçe özeti (10 dk).
+[https://cbarkinozer.medium.com/llm-uygulamalar%C4%B1-i%C3%A7in-yap%C4%B1land%C4%B1r%C4%B1lmam%C4%B1%C5%9F-verilerin-%C3%B6n-i%CC%87%C5%9Flemesi-5e49cc038907]
+8. Büyük Dil Modellerinizi Hangi Sınıf ile Eğitmelisiniz?
+Trainer, SFTTrainer, AutoTrainer ve DataCollator sınıflarını tanıyıp parametrelerini öğreneceğiz ve ardından Auto Train hakkında konuşacağız (11 dk).
+[https://cbarkinozer.medium.com/b%C3%BCy%C3%BCk-dil-modellerinizi-hangi-s%C4%B1n%C4%B1f-ile-e%C4%9Fitmelisiniz-f823d991b2e6]
+9. Önemli Olasılık Dağılımları ve Uygulamaları
+En önemli olasılık dağılımlarını, onların özelliklerini ve kullanım alanlarını inceleyeceğiz (23 dk).
+[https://cbarkinozer.medium.com/%C3%B6nemli-olas%C4%B1l%C4%B1k-da%C4%9F%C4%B1l%C4%B1mlar%C4%B1-ve-uygulamalar%C4%B1-c0808020c07f]
+
+Mayıs 2024
+Önemli Olasılık Dağılımları ve Uygulamaları
+En önemli olasılık dağılımlarını, onların özelliklerini ve kullanım alanlarını inceledik.
+https://medium.com/@cbarkinozer/%C3%B6nemli-olas%C4%B1l%C4%B1k-da%C4%9F%C4%B1l%C4%B1mlar%C4%B1-ve-uygulamalar%C4%B1-c0808020c07f
+Starcoder2 Quantization Deneyi
+Starcoder2'yle farklı nicemlerde (quantization) çıkarım (inference) yapıp çıktı kalitesi, çıkarım süresi ve gpu hafızası gibi değişkenlerini yorumladık.
+https://medium.com/@cbarkinozer/starcoder2-quantization-deneyi-129f60631cf2
+İnsanların Para ile İlişkisi Nedir?
+Morgan Housel’ın Paranın Psikolojisi kitabının geniş özeti.
+https://cbarkinozer.medium.com/i%CC%87nsanlar%C4%B1n-para-ile-i%CC%87li%C5%9Fkisi-nedir-e17d986272dc
+Bayes İstatistiği
+Bayes formülünü öğrendik, Bayes yaklaşımıyla olayların a posteriori olasılığını hesapladık, prior seçme yöntemlerini tanımladık ve Frequent'ci ve Bayes'cı istatistikler arasındaki farkları anladık.
+https://medium.com/@cbarkinozer/bayes-i%CC%87statisti%C4%9Fi-a94fb221b17f
+LLM’ler Nasıl Verimli Bir Şekilde Hizmete Açılır?
+Deeplearning.ai’ın “Efficiently Serving LLMs” kursunun Türkçe özeti.
+https://medium.com/@cbarkinozer/llmleri-verimli-bir-%C5%9Fekilde-hizmete-a%C3%A7ma-71e02539f354
+Veri Görselleştirme ile Veriler Nasıl Anlaşılır Hale Getirilir?
+Verileri neden görselleştirdiğimizi, önemli grafik türlerinin ne olduğunu ve bunları nasıl oluştacağımızı öğrenelim.
+https://cbarkinozer.medium.com/veri-g%C3%B6rselle%C5%9Ftirme-ile-veriler-nas%C4%B1l-anla%C5%9F%C4%B1l%C4%B1r-hale-getirilir-360eeb3aca68
+PyTorch Ustalık Serisi — Bölüm 4
+Bu bölümde evrişimli sinir ağlarını kullanarak görüntü sınıflandırma işlemi yapıyoruz.
+https://cbarkinozer.medium.com/pytorch-ustal%C4%B1k-serisi-b%C3%B6l%C3%BCm-4-5ced66a9b6a0
+LLM Uygulamaları İçin Sızma Testi Nasıl Yapılır?
+Deeplearning.ai’ın “Red Teaming LLM Applications” kursunun Türkçe özeti.
+https://cbarkinozer.medium.com/llm-uygulamalar%C4%B1-i%CC%87%C3%A7in-s%C4%B1zma-testi-nas%C4%B1l-yap%C4%B1l%C4%B1r-05b7ff15e795
+İstatistiksel Çıkarım ile Verilerin Sırları Nasıl Ortaya Çıkarılır?
+Bu yazıda maksimum gerçekleşebilirlik tahmini, en küçük kareler (OLS: Ordinary Least Squares) yaklaşımı, beklenti maksimizasyon (EM: Expectation Maximization) algoritması, regülarizasyon, belirsizlik gösterimi ve rastgele değişkenler için hesaplama yapma hakkında bilgi edineceğiz.
+https://cbarkinozer.medium.com/i%CC%87statistiksel-%C3%A7%C4%B1kar%C4%B1m-ile-verilerin-s%C4%B1rlar%C4%B1-nas%C4%B1l-ortaya-%C3%A7%C4%B1kar%C4%B1l%C4%B1r-11f6ddac9ec9
+Llamaindex ile RAG Ajanları Oluşturma
+Deeplearning.ai “Building Agentic RAG with Llamaindex” kursunun Türkçe özeti.
+https://cbarkinozer.medium.com/llamaindex-ile-rag-ajanlar%C4%B1-olu%C5%9Fturma-e4a4a28d64c9
+
+Haziran 2024
+1. Model Ağırlıklarının Açıklama Uzunluğunu Minimize Ederek Sinir Ağlarını Basitleştirmek
+1993'de yayımlanmış “Keeping Neural Networks Simple by Minimizing the Description Length of the Weights” makalesinin Türkçe çevirisidir.
+https://medium.com/@cbarkinozer/sinir-a%C4%9Flar%C4%B1n%C4%B1-model-a%C4%9F%C4%B1rl%C4%B1klar%C4%B1n%C4%B1n-a%C3%A7%C4%B1klama-uzunlu%C4%9Funu-minimize-ederek-basitle%C5%9Ftirmek-e10e655cf0ea?source=user_profile---------11----------------------------
+2. Hipotezler Nasıl Test Edilir?
+Null ve alternatif hipotezleri, test istatistiklerini, Tip I ve Tip II hataları, reddetme bölgesini, p-değerlerini, çoklu hipotez testini, aile bazında hata oranını, Bonferroni yöntemini ve yanlış keşif oranını öğrendik.
+https://cbarkinozer.medium.com/hipotezler-nas%C4%B1l-test-edilir-ac4629af1e4f
+3. Derin Evrişimli Sinir Ağları ile ImageNet Sınıflandırma
+2012'de yayımlanmış “ImageNet Classification with Deep Convolutional Neural Networks” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/derin-evri%C5%9Fimli-sinir-a%C4%9Flar%C4%B1-ile-imagenet-s%C4%B1n%C4%B1fland%C4%B1rma-65b2e9ecf93a
+4. Tekrarlayan Sinir Ağlarının Düzenlileştirmesi
+2015'de yayımlanmış “Recurrent Neural Network Regularization” Makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/tekrarlayan-sinir-a%C4%9Flar%C4%B1n%C4%B1n-d%C3%BCzenlile%C5%9Ftirmesi-998b10153c97
+5. Gelişmiş RAG Uygulamalarının Oluşturulması ve Değerlendirilmesi
+Deeplearning.ai’ın “Building and Evaluating Advanced RAG Applications” kursunun ayrıntılı özeti.
+https://cbarkinozer.medium.com/geli%C5%9Fmi%C5%9F-rag-uygulamalar%C4%B1n%C4%B1n-olu%C5%9Fturulmas%C4%B1-ve-de%C4%9Ferlendirilmesi-2dddd9e02582
+6. PyTorch Ustalık Serisi — Bölüm 5 (SON)
+Serinin son bölümü. Kendi verilerimizle bir yemek sınıflandırma uygulaması geliştirdik.
+https://cbarkinozer.medium.com/pytorch-ustal%C4%B1k-serisi-b%C3%B6l%C3%BCm-5-son-ffe9f0938c12
+7. Görüntü Tanıma için Derin Kalıntı Öğrenme
+2015'de yayımlanmış “Deep Residual Learning for Image Recognition” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/g%C3%B6r%C3%BCnt%C3%BC-tan%C4%B1ma-i%C3%A7in-derin-kal%C4%B1nt%C4%B1-%C3%B6%C4%9Frenme-af54f8840532
+8. CrewAI ile Çoklu Yapay Zeka Ajanı Sistemleri
+Deeplearning.ai'ın “Multi AI Agent Systems with CrewAI” kursunun Türkçe çevirisidir.
+https://cbarkinozer.medium.com/crewai-ile-%C3%A7oklu-yapay-zeka-ajan%C4%B1-sistemleri-d7bd251c06e8
+9. Kapalı Sistemlerde Karmaşıklığın Yükselişini ve Düşüşünü Ölçmek: Kahve Otomatı
+2014'te yayımlanan “Quantifying the Rise and Fall of Complexity in Closed Systems: The Coffee Automaton” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/kapal%C4%B1-sistemlerde-karma%C5%9F%C4%B1kl%C4%B1%C4%9F%C4%B1n-y%C3%BCkseli%C5%9Fini-ve-d%C3%BC%C5%9F%C3%BC%C5%9F%C3%BCn%C3%BC-%C3%B6l%C3%A7mek-kahve-otomat%C4%B1-94aa4f2fd882
+10. DSPy nedir? Bildirime Dayalı Kendini Geliştiren Python Dil Programları
+DSPy ile ilgili kaynakların derlenip Türkçe’ye çevirilmesi ile oluşturulmuş bir yazıdır.
+https://cbarkinozer.medium.com/dspy-nedir-bildirime-dayal%C4%B1-kendini-geli%C5%9Ftiren-python-dil-programlar%C4%B1-3c7271300609
+11. Chroma ile Gelişmiş RAG Yöntemleri
+Deeplearning.ai’ın “Advanced Retrieval for AI with Chroma” kursunun Türkçe çevirisi.
+https://cbarkinozer.medium.com/chroma-ile-geli%C5%9Fmi%C5%9F-rag-y%C3%B6ntemleri-43b38b39bbfe
+12. LLM Ajanı Nedir? LLM Ajanı Çerçeveleri Nelerdir?
+Yapay zeka ajanlarının tarihini öğrendik, ajan ve LLM ajanlarının tanımını yaptık ve popüler LLM ajanı çerçevelerini karşılaştırdık.
+https://cbarkinozer.medium.com/llm-ajan%C4%B1-nedir-03c6cd8929f7
+
+Temmuz 2024
+1. Microsoft AutoGen ile YZ Ajanik Tasarım Desenleri
+Deeplearning.ai’ın “AI Agentic Design Patterns with AutoGen” kursunun Türkçe özetidir.
+https://cbarkinozer.medium.com/autogen-ile-yz-ajanik-tasar%C4%B1m-desenleri-985c95c1fffa
+2. Sinirsel Turing Makineleri
+2014'te yayımlanmış ünlü “Neural Turing Machines” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/sinirsel-turing-makineleri-a7660a4871da
+3. Toplantı Bilimi: Toplantılarınız Daha Verimli Olabilir Mi?
+Bu yazıda, toplantıların nasıl daha verimli hale getirilebileceğinin yanıtını almaya çalışıyoruz.
+https://cbarkinozer.medium.com/toplant%C4%B1-bilimi-toplant%C4%B1lar%C4%B1n%C4%B1z-daha-verimli-olabilir-mi-57d40582fc90
+4. Yinelemeli Sinir Ağlarının (RNN) Akıl Almaz Başarısı
+2015'te yayımlanmış Andrej Karpathy’nin ünlü “The Unreasonable Effectiveness of Recurrent Neural Networks” yazısının Türkçe çevirisidir.
+https://cbarkinozer.medium.com/yinelemeli-sinir-a%C4%9Flar%C4%B1n%C4%B1n-rnn-ak%C4%B1l-almaz-ba%C5%9Far%C4%B1s%C4%B1-70ed57c521bc
+5. LSTM Ağlarını Anlamak
+2015'te yayımlanmış ünlü “Understanding LSTM Networks” yazısının Türkçe çevirisidir.
+https://medium.com/@cbarkinozer/lstm-a%C4%9Flar%C4%B1n%C4%B1-anlamak-edb5ee62ea11
+6. LangGraph Yapay Zeka Ajanları
+Deeplearning.ai’ın “AI Agents in LangGraph” kursunun Türkçe özetidir.
+https://cbarkinozer.medium.com/langgraph-yapay-zeka-ajanlar%C4%B1-28788365694f
+
+Ağustos 2024
+1. İstem Sıkıştırma ve Sorgu Optimizasyonu
+Deeplearning.ai’daki “Prompt Compression and Query Optimization” kursunun Türkçe özetidir.
+https://cbarkinozer.medium.com/i%CC%87stem-s%C4%B1k%C4%B1%C5%9Ft%C4%B1rma-ve-sorgu-optimizasyonu-9165c65dce2d
+2. Deep Speech 2: İngilizce ve Mandarin Çincesinde Uçtan Uca Konuşma Tanıma
+2015'te yayımlanmış popüler “Deep Speech 2: End-to-End Speech Recognition in English and Mandarin” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/deep-speech-2-i%CC%87ngilizce-ve-mandarin-%C3%A7incesinde-u%C3%A7tan-uca-konu%C5%9Fma-tan%C4%B1ma-255c9577ceed
+3. Isaac Asimov’un Ben Robot Kitabının Özeti
+Isaac Asimov’un I Robot (1950) kitabını özetliyorum.
+https://cbarkinozer.medium.com/isaac-asimovun-ben-robot-kitab%C4%B1n%C4%B1n-%C3%B6zeti-5ac3f9cf04a4
+4. Searle’ın Bilincin Gizemi Kitabının Özeti
+John R. Searle’ın “The Mystery of Consciousness” (1990) kitabının özeti.
+https://cbarkinozer.medium.com/searle%C4%B1n-bilincin-gizemi-kitab%C4%B1n%C4%B1n-%C3%B6zeti-91c05b800a1a
+5. Hizalanma ve Çeviriyi Birlikte Öğrenen Sinirsel Makine Çevirisi
+2014'te yayımlanmış popüler “Neural Machine Translation by Jointly Learning to Align and Translate” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/hizalanma-ve-%C3%A7eviriyi-birlikte-%C3%B6%C4%9Frenerek-sinirsel-makine-%C3%A7evirisi-914fcab9ffae
+6. Çin Yapay Zeka’da Nasıl Hızla Gelişti?
+Çin nasıl yapay zekada lider konuma geldi ve biz bu örnekten nasıl dersler alabiliriz?
+https://cbarkinozer.medium.com/%C3%A7in-nas%C4%B1l-yapay-zekada-h%C4%B1zla-geli%C5%9Fti-bd0fa431b064
+7. Hermes 3
+Llama3'ü özgürleştirdiler… adına da Hermes 3 dediler. Ama nasıl? Neden? Ve ne karşılığında?
+https://cbarkinozer.medium.com/hermes-3-68ee9b797ac3
+8. İşaretçi Ağlar
+2015'te yayımlanmış popüler “Pointer Networks” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/i%CC%87%C5%9Faret%C3%A7i-a%C4%9Flar-8bf434155c39
+9. Llama 3.1 Makalesi 1. Bölüm
+Meta’nın “The Llama 3 Herd of Models” makalesinin Türkçe özetinin ilk bölümüdür.
+https://cbarkinozer.medium.com/llama-3-1-makalesi-1-b%C3%B6l%C3%BCm-648f0be36c5e
+10. Optimizing Performance of Python: Emphasizing Time Complexity
+This article explores various techniques for optimizing the runtime efficiency of Python applications, including compiler and runtime optimizations, dynamic profiling, platform-specific strategies, and deployment methods, emphasizing the importance of iterative profiling and optimization for improved performance.
+https://cbarkinozer.medium.com/optimizing-performance-of-python-emphasizing-time-complexity-a2fb5a4b28f4
+
+Eylül 2024
+1. Model Nicemleme’yi (Quantization’ı) Derinlemesine Öğreniyoruz
+Deeplearning.ai’ın “Quantization in Depth” kursunun Türkçe çevirisidir.
+https://cbarkinozer.medium.com/model-nicemlemeyi-quantization-%C4%B1-derinlemesine-%C3%B6%C4%9Freniyoruz-4afb7b1d773c
+2. Llama 3.1 Makalesi 2. Bölüm (SON)
+Meta’nın “The Llama 3 Herd of Models” makalesinin Türkçe özetinin ikinci bölümüdür.
+https://cbarkinozer.medium.com/llama-3-1-makalesi-2-b%C3%B6l%C3%BCm-96cf9c4aa2e6
+3. 100 Common AI Interview Questions
+Let’s learn the most common generative AI, AI engineering, deep learning, and machine learning interview questions.
+https://cbarkinozer.medium.com/hundred-common-ai-interview-questions-0b0e3bd09957
+4. RAG (Erişim Destekli Üretim) Gelişmeleri 1. Bölüm
+RAG sistemleri araştırmalarında yaşanan son gelişmeleri incelediğimiz serinin ilk bölümü.
+https://cbarkinozer.medium.com/rag-eri%C5%9Fim-destekli-%C3%BCretim-geli%C5%9Fmeleri-1-b%C3%B6l%C3%BCm-e38b7fbc15d1
+5. Makine Öğrenmesine Giriş
+Makine öğrenmesi nedir? Makine öğrenmesindeki popüler terimlere, paradigmalara, ve farklı uygulamalara göz atacağız.
+https://cbarkinozer.medium.com/makine-%C3%B6%C4%9Frenmesine-giri%C5%9F-691cb45e2441
+6. OpenAI o1 (Strawberry) Modeli
+Yeni çıkan OpenAI o1 modeli hakkındaki tüm bilinenler ve teknik detaylar.
+https://cbarkinozer.medium.com/openai-o1-strawberry-modeli-a158bb32ab5a
+7. Sıra Önemlidir: Kümeler için Dizilimden Dizilime Yaklaşımı
+2015'te yayımlanmış popüler “Order Matters: Sequence to Sequence For Sets” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/s%C4%B1ra-%C3%B6nemlidir-k%C3%BCmeler-i%C3%A7in-dizilimden-dizilime-yakla%C5%9F%C4%B1m%C4%B1-37dd066e47a0
+8. LLM Uygulamalarının Doğruluğunun İyileştirilmesi
+Deeplearning.ai’daki “Improving Accuracy of LLM Applications” kısa kursunun Türkçe çevirisidir.
+https://cbarkinozer.medium.com/llm-uygulamalar%C4%B1n%C4%B1n-do%C4%9Frulu%C4%9Funun-i%CC%87yile%C5%9Ftirilmesi-09f2cff8b1f4
+9. RAG (Erişim Destekli Üretim) Gelişmeleri 2. Bölüm
+Akademideki RAG Sistemleri araştırmalarında yaşanan son gelişmeleri incelediğimiz serinin ikinci bölümü.
+https://cbarkinozer.medium.com/rag-eri%C5%9Fim-destekli-%C3%BCretim-geli%C5%9Fmeleri-2-b%C3%B6l%C3%BCm-62b67d96aa6f
+10. Mistral ile İstem Mühendisliği
+Deeplearning.ai’daki “Getting Started with Mistral” kursunun Türkçe çevirisidir.
+https://cbarkinozer.medium.com/mistral-ile-i%CC%87stem-m%C3%BChendisli%C4%9Fi-b1322f16d5d7
+11. Introduction to the Philosophy of Buddhism
+Let’s explore the core principles of Buddhism as a philosophy, examining its teachings on the nature of existence, the path to enlightenment, and practical applications for modern life.
+https://cbarkinozer.medium.com/introduction-to-the-philosophy-of-buddhism-6c597930166b
+12. Genişletilmiş Evrişimler ile Çok Ölçekli Bağlam Toplama
+2015'da yayımlanmış “Multi-Scale Context Aggregation By Dilated Convolutions” makalesinin Türkçe özetidir.
+https://cbarkinozer.medium.com/geni%C5%9Fletilmi%C5%9F-evri%C5%9Fimler-ile-%C3%A7ok-%C3%B6l%C3%A7ekli-ba%C4%9Flam-toplama-bcd345b5aa41
+13. RAG (Erişim Destekli Üretim) Gelişmeleri 3. Bölüm
+Akademideki RAG Sistemleri araştırmalarında yaşanan son gelişmeleri incelediğimiz serinin üçüncü bölümü.
+https://cbarkinozer.medium.com/rag-eri%C5%9Fim-destekli-%C3%BCretim-geli%C5%9Fmeleri-3-b%C3%B6l%C3%BCm-d2788e298cf9
+
+Ekim 2024
+1.30 Günde Reactjs 1. Bölüm
+30 günde Reactjs serisini takip ederken aldığım notlarımı paylaştığım serinin ilk bölümü.
+https://cbarkinozer.medium.com/30-g%C3%BCnde-reactjs-1-b%C3%B6l%C3%BCm-28c02436a92d
+2. Yapay Zeka Ajanlarının Geleceği
+Yapay zeka ajanlarının temel türleri, karmaşıklık seviyeleri, insanlarla etkileşimlerini ve geleceklerini inceliyoruz.
+https://cbarkinozer.medium.com/yapay-zeka-ajanlar%C4%B1n%C4%B1n-gelece%C4%9Fi-535d00acee1a
+3.Derin Artık Ağlarda Kimlik Haritalamaları
+2016'da yayımlanmış “Identity Mappings in Deep Residual Networks” makalesinin Türkçe özetidir.
+https://cbarkinozer.medium.com/derin-art%C4%B1k-a%C4%9Flarda-kimlik-haritalamalar%C4%B1-e6cd59fa06ee
+4. Kümeleme Algoritmaları (Clustering)
+Kümelemenin ne olduğunu, yöntemlerinin neler olduğunu ve bu yöntemlerin sınırlamaları ile avantajlarını öğrenelim.
+https://cbarkinozer.medium.com/k%C3%BCmeleme-algoritmalar%C4%B1-clustering-f069c8fc6ec5
+5.RAG (Erişim Destekli Üretim) Gelişmeleri 4. Bölüm
+Akademideki RAG Sistemleri araştırmalarında yaşanan son gelişmeleri incelediğimiz serinin dördüncü bölümü.
+https://cbarkinozer.medium.com/rag-eri%C5%9Fim-destekli-%C3%BCretim-geli%C5%9Fmeleri-4-b%C3%B6l%C3%BCm-fb4eff2a9d4c
+6. Görüntü Modelleri için İstem Mühendisliği
+Deeplearning.ai’daki “Prompt Engineering for Vision Models” kursunun Türkçe özetidir.
+https://cbarkinozer.medium.com/g%C3%B6r%C3%BCnt%C3%BC-modelleri-i%C3%A7in-i%CC%87stem-m%C3%BChendisli%C4%9Fi-f7a9299c9588
+7. Regresyon Modelleri
+Regresyonu, türlerini, basit doğrusal regresyon modelini, regresyon modellerini değerlendirmek için kullanılan farklı ölçütleri, lojistik ve kantil regresyon modellerini öğreniyoruz.
+https://cbarkinozer.medium.com/regresyon-modelleri-4a51eeaccd45
+8. Varyasyonel Kayıplı Otokodlayıcı
+2016'da yayımlanmış popüler “Variational Lossy Autoencoder” makalesinin Türkçe özetidir.
+https://cbarkinozer.medium.com/varyasyonel-kay%C4%B1pl%C4%B1-otokodlay%C4%B1c%C4%B1-89847b6a27c3
+9. Destek Vektör Makineleri
+Destek vektör makinelerini, hiper düzlem kavramını, doğrusal ve doğrusal olmayan ayrılabilir veriler arasındaki farkı, çekirdek fonksiyonunu ve SVM algoritmasında nasıl kullanıldığı öğreneceğiz.
+https://cbarkinozer.medium.com/destek-vekt%C3%B6r-makineleri-52e4612e6efa
+10. Birden Çok GPU ile Llama3.1 Finetune Etmek
+Birden çok GPU ile Llama3.1'i finetune etmek üzerine bulduğum yazıları derleyip Türkçe’ye çevirdim.
+https://cbarkinozer.medium.com/birden-%C3%A7ok-gpu-ile-llama3-1-finetune-etmek-e77076273212
+11. Sufi Philosophy
+Let’s explore Sufism's core philosophy, delving into its teachings on the self, love, inner purification, and the journey toward divine unity.
+https://cbarkinozer.medium.com/the-philosophy-of-sufism-e2bdbe54fc2f
+12. RAG (Erişim Destekli Üretim) Gelişmeleri 5. Bölüm
+Akademideki RAG Sistemleri araştırmalarında yaşanan son gelişmeleri incelediğimiz serinin beşinci bölümü.
+https://cbarkinozer.medium.com/rag-eri%C5%9Fim-destekli-%C3%BCretim-geli%C5%9Fmeleri-5-b%C3%B6l%C3%BCm-1ff9453ef2a5
+13. Mimariden Uygulamaya Embedding (Gömme) Modelleri
+Deeplearning.ai’daki “Embedding Models: From Architecture to Implementation” kursunun Türkçe özetidir.
+https://cbarkinozer.medium.com/mimariden-uygulamaya-embedding-g%C3%B6mme-modelleri-3b6a33a59c62
+14. Karar Ağaçları
+Karar ağacı nedir? Nasıl kullanılır? Türleri nelerdir? Özellik sıralaması, ağaç budama, karar ağaç sınıflandırması gibi terimleri öğreniyoruz.
+https://cbarkinozer.medium.com/karar-a%C4%9Fa%C3%A7lar%C4%B1-41b327f43ff7
+15. Genetik Algoritmalar
+Bu yazıda genetik algoritma nedir? Ne işe yarar? Fazları ve uygulama alanları nelerdir? Nasıl Uygulanır? sorularının yanıtlarını arıyoruz.
+https://cbarkinozer.medium.com/genetik-algoritmalar-eec8ec7b78d7
+16. Authentication in FastAPI
+Is your FastAPI project ready to go into production? We’ll learn about https, rate limiting, input checks for XSS and CSRF, and how to use Google OAuth for authentication in FastAPI.
+https://cbarkinozer.medium.com/authentication-in-fastapi-1c5ddb7c303f
+
+Kasım 2024
+1.Minimum Açıklama Uzunluğu İlkesine Giriş
+2004'te yayımlanmış popüler “A Tutorial Introduction to the Minimum Description Length Principle” kitabının Türkçe özetidir.
+https://cbarkinozer.medium.com/minimum-a%C3%A7%C4%B1klama-uzunlu%C4%9Fu-i%CC%87lkesine-giri%C5%9F-1c3b69611f57
+2. Kuantum Kimyası İçin Nöral Mesaj Aktarımı
+2017'de yayımlanmış popüler “Neural Message Passing for Quantum Chemistry” makalesinin Türkçe özetidir.
+https://cbarkinozer.medium.com/kuantum-kimyas%C4%B1-i%CC%87%C3%A7in-n%C3%B6ral-mesaj-aktar%C4%B1m%C4%B1-8e95902671b7
+3. How Can We Be Sure About Something According to Descartes?
+The summary of the book “Discourse on Method and Meditations” by Descartes.
+https://cbarkinozer.medium.com/how-can-we-be-sure-about-something-according-to-descartes-e94fea273701
+4. İlişkisel Akıl Yürütme İçin Basit Bir Sinir Ağı Modülü
+2017'de yayımlanmış popüler “A simple neural network module for relational reasoning” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/i%CC%87li%C5%9Fkisel-ak%C4%B1l-y%C3%BCr%C3%BCtme-i%CC%87%C3%A7in-basit-bir-sinir-a%C4%9F%C4%B1-mod%C3%BCl%C3%BC-03991a3afbf5
+5. Veriler İstatistiksel Olarak Nasıl Değerlendirilir?
+Bayes Teoremi, Bayes Çıkarımı, Bayes Ağlarını, Markov Chain Monte Carlo’yu (MCMC) ve onu Bayes Olasılıksal Çıkarımda nasıl kullanıldığını öğreneceğiz.
+https://cbarkinozer.medium.com/veriler-i%CC%87statistiksel-olarak-nas%C4%B1l-de%C4%9Ferlendirilir-b05259260792
+6. Nedensellik Nedir ve Nasıl Anlaşılır?
+Yönlü döngüsüz grafikleri, temel unsurlarını ve değişkenler arasındaki ilişkilerin şartlandırma ile nasıl etkilendiğini inceleyecek; iki değişken arasında ilişki olup olmadığını bulmayı öğreneceğiz.
+https://cbarkinozer.medium.com/nedensellik-nedir-ve-nas%C4%B1l-anla%C5%9F%C4%B1l%C4%B1r-1880a0b21a5d
+7. Bilimsel Bir Araştırmada Nasıl Soru Sorulur?
+Gözlemleri, müdahaleleri, karıştırıcı faktörleri, karşıolguları ve rastgele kontrollü denemeleri öğreneceğiz.
+https://cbarkinozer.medium.com/bilimsel-bir-ara%C5%9Ft%C4%B1rmada-nas%C4%B1l-soru-sorulur-a728d8a19077
+8. Transformatör Mimarisi İncelemesi
+2018 yılında Harvard tarafından yayımlanmış popüler “The Annotated Transformer” yazısının Türkçe çevirisidir.
+https://cbarkinozer.medium.com/transformat%C3%B6r-mimarisi-i%CC%87ncelemesi-926e16e380d3
+9. Erişim Optimizasyonu: Tokenizasyondan Vektör Nicemlemeye
+Deeplearning.ai’daki “Retrieval Optimization: From Tokenization to Vector Quantization” kursunun Türkçe özetidir.
+https://cbarkinozer.medium.com/eri%C5%9Fim-optimizasyonu-tokenizasyondan-vekt%C3%B6r-nicemlemeye-56a055e5896f
+10. Nedensel İlişkileri Do Kalkülüs ile Nasıl Ortaya Çıkarabiliriz?
+Ön kapı ve arka kapı yollarını ve do kalkülüs’ün üç kuralını öğreneceğiz.
+https://cbarkinozer.medium.com/nedensel-i%CC%87li%C5%9Fkileri-do-kalk%C3%BCl%C3%BCs-ile-nas%C4%B1l-ortaya-%C3%A7%C4%B1karabiliriz-2f721fcdc80d
+11. Sık Düşülen Veri Analizi Yanılgıları Nelerdir?
+Veri analizindeki yanılgıları, aracılık yanılgısı (mediation fallacy), çarpışan yanılgısı (collider fallacy), nedensel açıklamalar ve eksik değerlerin yüklenmesinde veri odaklı ve nedensel yaklaşımlar arasındaki farkları öğreneceğiz.
+https://cbarkinozer.medium.com/s%C4%B1k-d%C3%BC%C5%9F%C3%BClen-veri-analizi-yan%C4%B1lg%C4%B1lar%C4%B1-nelerdir-51561cb51c3a
+12. Cihat Çiçek’e Göre Türkiye’de Finansal Zenginlik Elde Etmenin Yolu
+“Dikkat Zengin Yapabilir!” kitabını okurken aldığım notlarımı paylaşıyorum.
+https://cbarkinozer.medium.com/cihat-%C3%A7i%C3%A7eke-g%C3%B6re-t%C3%BCrkiye-de-finansal-zenginlik-elde-etmenin-yolu-8d561dc605bf
+13.İlişkisel Yinelemeli Sinir Ağları
+2018 yılında DeepMind tarafından yayımlanmış popüler “Relational recurrent neural networks” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/i%CC%87li%C5%9Fkisel-tekrarlayan-sinir-a%C4%9Flar%C4%B1-7976d941837b
+14. Pragmatik Programcı 1. Bölüm: Pragmatik Felsefe
+Yazılım alanında popüler olan “Pragmatic Programmer” kitabının ilk bölümünün Türkçe çevirisidir.
+https://cbarkinozer.medium.com/pragmatik-programc%C4%B1-1-b%C3%B6l%C3%BCm-pragmatik-felsefe-aa177f00949d
+15.Sinir Ağları ve Derin Öğrenmeye Giriş
+Biyolojik beyin, tek ve çok katmanlı perseptronları öğreniyoruz.
+https://cbarkinozer.medium.com/sinir-a%C4%9Flar%C4%B1-ve-derin-%C3%B6%C4%9Frenmeye-giri%C5%9F-f5371201ffc8
+16. GPipe: Mikro-Toplam Boru Hattı Paralelliğiyle Kolay Ölçekleme
+2019 yılında Google tarafından yayımlanmış popüler “GPipe: Easy Scaling with Micro-Batch Pipeline Parallelism” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/gpipe-mikro-toplam-boru-hatt%C4%B1-paralelli%C4%9Fiyle-kolay-%C3%B6l%C3%A7ekleme-a9984339c705
+17. Guardrails ile Güvenli ve Güvenilir LLM’ler
+Deeplearning.ai’daki “Safe and reliable AI via guardrails” kursunun Türkçe özetidir.
+https://cbarkinozer.medium.com/guardrails-ile-g%C3%BCvenli-ve-g%C3%BCvenilir-yapay-zeka-f6839b2ec0e0
+18. Derin Öğrenme Mimarileri
+İleri Beslemeli Sinir Ağları, Evrişimli Sinir Ağları, Yinelemeli Sinir Ağları, Bellek Hücreleri ve LSTM’leri öğrenelim.
+https://cbarkinozer.medium.com/derin-%C3%B6%C4%9Frenme-mimarileri-0e19f30d7ec8
+19. Yapay Sinir Ağlarının Eğitimi
+Geri yayılımı (backpropagation), gradyan inişini (gradient descend), ağırlık başlatmayı (weight initialization), regularizasyonu ve aşırı eğitim durumunu (overtraining) öğreniyoruz.
+https://cbarkinozer.medium.com/yapay-sinir-a%C4%9Flar%C4%B1n%C4%B1n-e%C4%9Fitimi-872c9b76355c
+20. How to Establish Nonviolent Communication?
+We are going to learn to talk and get along without being emotional.
+https://cbarkinozer.medium.com/how-to-establish-nonviolent-communication-58964f2c8db8
+21. Tech Documentaries and Biographies
+I created a list of the most well-known AI, programming, hacking, and technology-related documentaries and biography films.
+https://cbarkinozer.medium.com/tech-documentaries-and-biographies-7e4432cb8161
+22. Model Eğitimindeki Alternatif Yöntemler Nelerdir?
+Dikkat, Geribildirim Hizalaması, Sentetik Gradyanlar, Ayrık Ağ Arayüzleri ve Transfer Öğrenmesini öğreniyoruz.
+https://cbarkinozer.medium.com/model-e%C4%9Fitimindeki-alternatif-y%C3%B6ntemleri-nelerdir-9c7a02cecec1
+23. Kod LLM’leri ile Kod Tamamlama
+Kod amaçları için ön eğitilmiş büyük dil modellerini kod tamamlama amacıyla eğitmeye dair bulduğum kaynakları derledim.
+https://cbarkinozer.medium.com/kod-llmleri-i%CC%87le-kod-tamamlama-35668c7cd8a0
+24. Sinir Dil Modelleri için Ölçekleme Yasaları
+2020 yılında OpenAI tarafından yayımlanmış popüler “Scaling Laws for Neural Language Models” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/sinir-dil-modelleri-i%C3%A7in-%C3%B6l%C3%A7ekleme-yasalar%C4%B1-f25ca1b5b2c4
+25. Pragmatik Programcı 2. Bölüm: Pragmatik Yaklaşım
+Yazılım alanında popüler olan “Pragmatic Programmer” kitabının ikinci bölümünün Türkçe çevirisidir.
+https://cbarkinozer.medium.com/pragmatik-programc%C4%B1-2-b%C3%B6l%C3%BCm-pragmatik-yakla%C5%9F%C4%B1m-f267b4ead407
+
+Aralık 2024
+1. İnsan Geribildiriminden Pekiştirmeli Öğrenme (RLHF)
+Deeplearning.ai’daki “Reinforcement Learning from Human Feedback” kursunun Türkçe çevirisidir.
+https://cbarkinozer.medium.com/i%CC%87nsan-geribildiriminden-peki%C5%9Ftirmeli-%C3%B6%C4%9Frenme-rhlf-7020389a7dc2
+2. İleri Yapay Sinir Ağı Mimarileri
+Üretken Çekişmeli Ağlar (GAN), Otokodlayıcılar (Autoencoders), Kısıtlı Boltzmann Makineleri, Kapsül Ağlar ve Uyarımlı (Spiked) Sinir Ağlarını öğreneceğiz.
+https://cbarkinozer.medium.com/i%CC%87leri-yapay-sinir-a%C4%9F%C4%B1-mimarileri-ee819a2ca9d7
+3. Derin Yarı-Gözetimli Öğrenme Algoritmalarının Gerçekçi Değerlendirmesi
+2019'da Google Brain tarafından yayımlanmış “Realistic Evaluation of Deep Semi-Supervised Learning Algorithms” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/derin-yar%C4%B1-g%C3%B6zetimli-%C3%B6%C4%9Frenme-algoritmalar%C4%B1n%C4%B1n-ger%C3%A7ek%C3%A7i-de%C4%9Ferlendirmesi-01fcbeddcf01
+4. Kod Kaynaklarından RAG Nasıl Yapılır?
+Continue.dev, Cursor, Tabby, Cody ve Qodo’daki kod dosya ve repolarından RAG yapmaya dair güncel yöntemleri derledim.
+https://cbarkinozer.medium.com/kod-kaynaklar%C4%B1ndan-rag-nas%C4%B1l-yap%C4%B1l%C4%B1r-2e94e1a3e216
+5. Mobilde Yapay Zeka’ya Giriş
+Deeplearning.ai’daki “Introduction to On-Device AI” kursunun Türkçe çevirisidir.
+https://cbarkinozer.medium.com/mobilde-yapay-zekaya-giri%C5%9F-4990a6577fba
+6. Pragmatik Programcı 3. Bölüm: Temel Araçlar
+Yazılım alanında popüler olan “Pragmatic Programmer” kitabının üçüncü bölümünün Türkçe çevirisidir.
+https://cbarkinozer.medium.com/pragmatik-programc%C4%B1-3-b%C3%B6l%C3%BCm-temel-ara%C3%A7lar-6b54219d1418
+7. Türkçe Doğal Dil İşlemeye Giriş
+Düzenli ifadeleri (regex), belirteçleştirmeyi (tokenization), etkisiz kelimeleri (stop words), kelime torbası yöntemini (bag of words), kelime vektörlerini, N-gramı ve kelime anlamı belirsizliğini gidermeyi öğrenelim.
+https://cbarkinozer.medium.com/t%C3%BCrk%C3%A7e-nlpye-giri%C5%9F-01b4c88b537c
+8. Doğal Dil İşleme Uygulamaları
+Konu tanıma, duygu analizi, varlık adı tanıma, çeviri ve sohbet asistanları hakkında bilgi edineceğiz.
+https://cbarkinozer.medium.com/do%C4%9Fal-dil-i%CC%87%C5%9Fleme-uygulamalar%C4%B1-e6bd4c2697f7
+9. Pragmatik Programcı 4. Bölüm: Pragmatik Paranoya
+Yazılım alanında popüler olan “Pragmatic Programmer” kitabının dördüncü bölümünün Türkçe çevirisidir.
+https://cbarkinozer.medium.com/pragmatik-programc%C4%B1-4-b%C3%B6l%C3%BCm-pragmatik-paranoya-1a97a2d98b12
+10. Bilgisayarlı Görüye Giriş
+Pikseller, filtreler, özellik algılama, bozulma, kalibrasyon, çoklu ve stereo görüntü ile bilgisayarlı görü’ye (computer vision) giriş yapıyoruz.
+https://cbarkinozer.medium.com/bilgisayarl%C4%B1-g%C3%B6r%C3%BCye-giri%C5%9F-6c3996651c58
+11. Bilgisayarlı Görü Uygulamaları
+Bilgisayarlı görüde görüntü sınıflandırması ve hareket takibi, anlamsal bölütleme, nesne tanımlama ve takibi, öz yüzler ve yüz tanıma konularını öğreneceğiz.
+https://cbarkinozer.medium.com/bilgisayarl%C4%B1-g%C3%B6r%C3%BC-uygulamalar%C4%B1-1ba76052d976
+12. Unit Testing with PyTest
+Let’s learn how to write unit tests for depth with PyTest. Writing no more Python projects written without unit tests!
+https://cbarkinozer.medium.com/unit-testing-with-pytest-2b2811360a34
+13. Bilgisayarlı Görü ve Doğal Dil İşleme Alanında Gizlilik ve Güvenlik
+Çekişmeli Görüntü Saldırıları (Adversarial Image Attacks), görsel verilerin gizliliği ve giyilebilir ve mobil kameraların gizliliği konularını öğreneceğiz.
+https://cbarkinozer.medium.com/bilgisayarl%C4%B1-g%C3%B6r%C3%BC-ve-do%C4%9Fal-dil-i%CC%87%C5%9Fleme-alan%C4%B1nda-gizlilik-ve-g%C3%BCvenlik-5e76f8c16c1c
+14. Kompleksodinamiğin Birinci Yasası
+2011'de yayımlanmış popüler “The First Law of Complexodynamics” makalesinin Türkçe çevirisidir.
+https://cbarkinozer.medium.com/kompleksodinami%C4%9Fin-birinci-yasas%C4%B1-c684f590dc02
+15. Yapay Zeka Ajanları Otomasyonu Değiştiriyor
+Insight Partners’in “AI Agents are disrupting automation: Current approaches, market solutions and recommendations” blog yazısının Türkçe çevirisidir.
+https://cbarkinozer.medium.com/yapay-zeka-ajanlar%C4%B1-otomasyonu-de%C4%9Fi%C5%9Ftiriyor-77c7b39cb5ec
+16. CS231n — Görsel Tanıma için Evrişimli Sinir Ağları 1. Bölüm
+Stanford’un popüler ücretsiz “CS231n: Convolutional Neural Networks for Visual Recognition” dersinin Türkçe çevirisinin ilk bölümü.
+https://cbarkinozer.medium.com/cs231n-g%C3%B6rsel-tan%C4%B1ma-i%C3%A7in-evri%C5%9Fimli-sinir-a%C4%9Flar%C4%B1-1-b%C3%B6l%C3%BCm-9aeb01649800
+17. YZ Kullanarak Çalışan Birim Testileri Yazılabilir Mi?
+YZ kullanarak birim testi oluşturulabiliyor mu? Hangi araçlar bunu hangi seviyede ve ne şekilde başarabiliyor?
+https://cbarkinozer.medium.com/yz-kullanarak-%C3%A7al%C4%B1%C5%9Fan-birim-testileri-yaz%C4%B1labilir-mi-2f415f86efcf
+
+Ocak 2025
+1. Federe Öğrenmeye Giriş
+Deeplearning.ai’daki “Intro to Federated Learning” kursunun Türkçe çevirisidir.
+[https://cbarkinozer.medium.com/federe-%C3%B6%C4%9Frenmeye-giri%C5%9F-a97a33492167]
+2. Pekiştirmeli Öğrenmeye Giriş
+Pekiştirmeli öğrenmeyi tanımlayalım ve bir pekiştirmeli öğrenme sisteminin bileşenlerini detaylıca konuşalım.
+[https://cbarkinozer.medium.com/peki%C5%9Ftirmeli-%C3%B6%C4%9Frenmeye-giri%C5%9F-dae06abcd049]
+3. Pragmatik Programcı 5. Bölüm: Bükülmezsen Kırılırsın
+Yazılım alanında popüler olan “Pragmatic Programmer” kitabının beşinci bölümünün Türkçe çevirisidir.
+[https://cbarkinozer.medium.com/pragmatik-programc%C4%B1-5-b%C3%B6l%C3%BCm-b%C3%BCk%C3%BClmezsen-k%C4%B1r%C4%B1l%C4%B1rs%C4%B1n-9a3310041467]
+4. Federe Öğrenme 2. Bölüm: İnce Ayar
+Deeplearning.ai’daki “Federated Fine-tuning of LLMs with Private Data” kursunun Türkçe çevirisidir.
+[https://cbarkinozer.medium.com/federe-%C3%B6%C4%9Frenme-2-b%C3%B6l%C3%BCm-i%CC%87nce-ayar-28cc991759cc]
+5. Titanlar: Sınav Zamanında Ezberlemeyi Öğrenmek
+2025'te Google Research tarafından yayımlanan “Titans: Learning to Memorize at Test Time” makalesini inceliyoruz.
+[https://cbarkinozer.medium.com/titanlar-s%C4%B1nav-zaman%C4%B1nda-ezberlemeyi-%C3%B6%C4%9Frenmek-6afafd1d7d9e]
+6. Pragmatik Programcı 6. Bölüm: Eşzamanlılık
+Yazılım alanında popüler olan “Pragmatic Programmer” kitabının altıncı bölümünün Türkçe çevirisidir.
+[https://cbarkinozer.medium.com/pragmatik-programc%C4%B1-6-b%C3%B6l%C3%BCm-e%C5%9Fzamanl%C4%B1l%C4%B1k-0780e9d118e5]
+7. İstem Mühendisliği (Prompt Engineering)
+İstem mühendisliği bağlamında istemlerin temellerini, şablonları, sınırlayıcıları, atışları, zincirleri, önbelleğe almayı, performans optimizasyonunu öğrendiğimiz kapsamlı bir rehber niteliğindedir.
+[https://cbarkinozer.medium.com/i%CC%87stem-m%C3%BChendisli%C4%9Fi-prompt-engineering-091a1f6dde72]
+8. Dinamik Programlama ve Markov Karar Süreçleri
+Sıralı Karar Verme, Dinamik Programlama, Bellman Denklemi ve Genel Fayda Fonksiyonlarını öğreniyoruz.
+[https://cbarkinozer.medium.com/dinamik-programlama-ve-markov-karar-s%C3%BCre%C3%A7leri-58be0592e62d]
+9. Muhakeme Modelleri
+Kendiliğinden düşünce zinciri (chain of thought) kullanan OpenAI o1, OpenAI o3 veya Marc-o1 ve Deepseek r1 gibi muhakeme (reasoning) modellerini inceliyoruz.
+[https://cbarkinozer.medium.com/muhakeme-modelleri-b21a2748da50]
+10. Haydut Problemleri
+Pekiştirmeli öğrenmedeki tek kollu ve çok kollu haydut problemlerini öğrenelim.
+[https://cbarkinozer.medium.com/haydut-problemleri-ae8d3844dd9b]
+11. Q Öğrenme
+Q-Learning varyantları, zaman farkı öğrenmesi, deneyim tekrarı, gecikmeli ve seyrek ödüller, hiyerarşik öğrenme, değer ve politika tabanlı öğrenme ile aktör-kritik öğrenme yaklaşımlarını öğreniyoruz.
+[https://cbarkinozer.medium.com/q-%C3%B6%C4%9Frenme-09d6f8ac2a5e]
+12. Pekiştirmeli Öğrenme Yaklaşımları
+Model tabanlı ve model bağımsız yaklaşımları, keşif ve sömürü dengesini inceliyoruz.
+[https://cbarkinozer.medium.com/peki%C5%9Ftirmeli-%C3%B6%C4%9Frenme-yakla%C5%9F%C4%B1mlar%C4%B1-a11a47093f5b]
+
+Şubat 2025
+1. Erişim Destekli Üretim (RAG)
+RAG’in temellerinden gelişmiş popüler yöntemlere kadar incelediğimiz bu 1 saat okuma süreli yazı, 2025'te RAG'i sıfırdan uzman seviyesine öğrenmek için birebir. Yerleştirmeler, vektör veritabanları, TF-IDF, BM25, hibrit arama, yerleştirme adaptörü, sorgu genişletme, grafik ve hiyerarşik RAG gibi konuları ele aldım.
+[https://cbarkinozer.medium.com/eri%C5%9Fim-destekli-%C3%BCretim-rag-3eafe68f232d]
+2. Yapay Zeka Bizi Aptallaştırıyor Mu?
+Üretken Yapay Zeka Bizi Aptal mı Yapıyor? Kod Asistanları Yazılım Yeteneklerimizi Köreltiyor mu? Ne Yapalım? Sorularını cevaplamaya çalıştım.
+[https://cbarkinozer.medium.com/yapay-zeka-bizi-aptalla%C5%9Ft%C4%B1r%C4%B1yor-mu-c8bcd714fd8c]
+3. Yargılanma Korkusu Toplumumuzu Nasıl Derinden Etkiliyor?
+Ziyad Marar’ın Beni Yargılama: Yanlış Anlaşılmanın Değeri adlı sosyoloji kitabının geniş özetidir. Kitap, özellikle bizim ülkemizde daha yoğun gözlemlenen, toplumun görüşünü öngörüp kendi tercihlerinden feragat etmeye sebep olan yargılanma korkusunu ele almaktadır.
+[https://cbarkinozer.medium.com/yarg%C4%B1lanma-korkusu-toplumumuzu-nas%C4%B1l-derinden-etkiliyor-94c3413f7c6c]
+4. Yapay Zeka Devrimi: Genel Yapay Zeka’nın (AGI) Yolunda
+Genel Yapay Zeka’nın kısa ve uzun vadede insanlığa etkilerini tartışıyoruz. 40 dakika okuma süreli bu yazı, Tim Urban’ın 2015’te yayımladığı iki yazının güncellenmiş çevirisini ve AI Explained’in popüler bir videosunun Türkçe özetini içerir. Bu içeriklerin ortak noktası, zekanın otomasyonunun çok yakında oluşunun doğurabileceği sonuçları ele almalarıdır. Bu yazı sayesinde bakış açınız değişebilir ve yapay zeka devriminde kendinizi uzun vadede daha doğru konumlandırabilirsiniz diye düşünüyorum.
+[https://medium.com/@cbarkinozer/yapay-zeka-devrimi-genel-yapay-zekan%C4%B1n-agi-yolunda-2df03dbeb3b4]
+
+Mart 2025
+1. YZ ile İşleme Mesajı (Commit Message) Oluşturma
+YZ ile işleme mesajı oluşturmayla alakalı bir makaleyi inceliyoruz.
+[https://cbarkinozer.medium.com/yz-ile-i%CC%87%C5%9Fleme-mesaj%C4%B1-commit-message-olu%C5%9Fturma-ff4162c1f468]
+2. Model Bağlam Protokolü
+Anthropic’in paylaştığı MCP: Model Context Protocol’u tanıyoruz.
+[https://cbarkinozer.medium.com/model-ba%C4%9Flam-protokol%C3%BC-018e1f787d76]
+3. SWT-Bench Makale İncelemesi
+Kod ajanlarıyla gerçek dünyadaki yazılım hatası düzeltmelerinin test edilmesi ve doğrulanması ile alakalı olan SWT-Bench makalesini inceliyoruz.
+[https://cbarkinozer.medium.com/swt-bench-makale-i%CC%87ncelemesi-4455161c3deb]
+4. LLM’ler Aracılığıyla Otonom Test Etme Ajanlarına Doğru
+“Towards Autonomous Testing Agents via Conversational Large Language Models” makalesinin Türkçe özetidir.
+[https://cbarkinozer.medium.com/llmler-arac%C4%B1l%C4%B1%C4%9F%C4%B1yla-otonom-test-etme-ajanlar%C4%B1na-do%C4%9Fru-c7ba178148db]
+5. Meta TestGen-LLM
+Meta’nın LLM’leri Kullanılarak Birim Testlerini Otomatik İyileştirdikleri makaleyi inceliyoruz.
+[https://cbarkinozer.medium.com/testgen-llm-bf92f813ec07]
+6. LLM’lerle Otomatik Birim Testi Oluşturma Değerlendirmesi
+“An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation” makalesini inceliyoruz.
+[https://cbarkinozer.medium.com/llmlerle-otomatik-birim-testi-olu%C5%9Fturma-de%C4%9Ferlendirmesi-e1e93e0fc62b]
+7. Test Oluşturmak İçin LLM ve İstemleme Kullanımının Değerlendirmesi
+“LLMs and Prompting for Unit Test Generation: A Large-Scale Evaluation” makalesinin Türkçe incelemesidir.
+[https://cbarkinozer.medium.com/test-olu%C5%9Fturmak-i%CC%87%C3%A7in-llm-ve-i%CC%87stemleme-kullan%C4%B1m%C4%B1n%C4%B1n-de%C4%9Ferlendirmesi-a83bedd2a031]
+8. TestGenEval Birim Testi Üretim Ölçütü
+“TESTGENEVAL: A Real World Unit Test Generation And Test Completion Benchmark” makalesini inceliyoruz.
+[https://cbarkinozer.medium.com/testgeneval-birim-testi-%C3%BCretim-%C3%B6l%C3%A7%C3%BCt%C3%BC-41d2cf9266b8]
+9. YZ ile Konuşma Üretiminde Ürkütücülüğü Aşmak
+Sesame.ai’ın “Crossing the uncanny valley of conversational voice” blog yazısıdır.
+[https://cbarkinozer.medium.com/yz-ile-konu%C5%9Fma-%C3%BCretiminde-%C3%BCrk%C3%BCt%C3%BCc%C3%BCl%C3%BC%C4%9F%C3%BC-a%C5%9Fmak-35aea6cac73c]
+10. Birim Test Üretiminde LLM’lerin Değerlendirilmesi Üzerine
+“On the Evaluation of Large Language Models in Unit Test Generation” makalesini inceliyoruz.
+[https://cbarkinozer.medium.com/birim-test-%C3%BCretiminde-llmlerin-de%C4%9Ferlendirilmesi-%C3%BCzerine-8cd8d1e36af0]
+11. IBM’den Görülmemiş Kod Testlerini Üretme Makalesi
+“Generating Unseen Code Tests In Infinitum” makalesi özetidir.
+[https://cbarkinozer.medium.com/infinitumda-g%C3%B6r%C3%BClmemi%C5%9F-kod-testleri-%C3%BCretmek-a3bb4fd7ca20]
+12. Öncü Muhakeme Modellerinde Yanlış Davranışların Tespiti
+OpenAI’ın “Detecting misbehavior in frontier reasoning models” blog yazısının Türkçe çevirisidir.
+[https://cbarkinozer.medium.com/%C3%B6nc%C3%BC-muhakeme-modellerinde-yanl%C4%B1%C5%9F-davran%C4%B1%C5%9Flar%C4%B1n-tespiti-138a8d10242a]
+13. Bilimsel Araştırma Çerçeveleri: Yapay Zeka Alanında Bilimsel Araştırma Nasıl Yapılır?
+Nunamaker’ın DAG Çok Yöntemli Yaklaşımı, CRISP-DM, CRISP-ML, PRISMA ve SMART çerçevelerini öğreniyor, tez yazma ve savunma aşamalarındaki püf noktalara değiniyoruz.
+[https://cbarkinozer.medium.com/bilimsel-ara%C5%9Ft%C4%B1rma-%C3%A7er%C3%A7eveleri-yapay-zeka-alan%C4%B1nda-bilimsel-ara%C5%9Ft%C4%B1rma-nas%C4%B1l-yap%C4%B1l%C4%B1r-b4a8a2d2701a]
+14. Büyük Kavram Modelleri (LCM)
+Meta’nın “Large Concept Models” makalesinin özetidir.
+[https://cbarkinozer.medium.com/b%C3%BCy%C3%BCk-kavram-modelleri-lcm-929fd84cd5ab]
+15. Küçük Dil Modelleri (SLMs)
+Küçük dil modelleri (Small Language Models) ile alakalı bazı önemli makalelerden aldığım notları paylaşıyorum.
+[https://cbarkinozer.medium.com/k%C3%BC%C3%A7%C3%BCk-dil-modelleri-1372a1d65dd5]
+16. AlphaGo’dan MuZero’ya Pekiştirmeli Öğrenmenin Gücü
+DeepMind, AlphaGo, AlphaGo Zero, AlphaZero ve MuZero ile yapay zekanın oyunlarda insanları nasıl alt edebileceğini gösterdi. Peki, bunu nasıl başardı?
+[https://cbarkinozer.medium.com/alphagodan-muzero-ya-peki%C5%9Ftirmeli-%C3%B6%C4%9Frenmenin-g%C3%BCc%C3%BC-d406750b3c73]
+17. Projeniz Açık Kaynaklı Olmalı Mı?
+Projenizi açık kaynaklı veya kapalı kaynaklı yapmanın avantajlarını öğreniyoruz.
+[https://cbarkinozer.medium.com/projeniz-a%C3%A7%C4%B1k-kaynakl%C4%B1-olmal%C4%B1-m%C4%B1-e39c18d9b334]
+18. Küçük Kod Modelleri
+Kod yeteneği olan ve 7B’dan küçük olan modellerle ilgili önemli makale ve raporları inceliyoruz.
+[https://cbarkinozer.medium.com/k%C3%BC%C3%A7%C3%BCk-kod-modelleri-9cc4f3c8a883]
+19. Typescript’in Sözdizimi
+Başka bir programlama dilini bilenler için, hızlı ve özetlenmiş TypeScript sözdizimi notlarıdır.
+[https://cbarkinozer.medium.com/typescriptin-s%C3%B6zdizimi-50cc04504e99]
+20. Yargıç Olarak LLM (LLM-as-a-Judge)
+LLM’lerin değerlendirme yeteneklerini bu alandaki popüler makaleleri inceleyerek araştırıyoruz.
+[https://cbarkinozer.medium.com/yarg%C4%B1%C3%A7-olarak-llm-llm-as-a-judge-be23d7ab3c3d]
+
+Mayıs 2025
+1. Çevik Proje Yönetimi
+Proje yönetiminin tanımı ve türleri, çevik (agile) proje yönetimi, Kanban ve Scrum metodolojileri, modern proje yönetime geçişi öğreneceğiz.
+[https://cbarkinozer.medium.com/%C3%A7evik-proje-y%C3%B6netimi-2fcc3d29e689]
+2. Yazılım Geliştiriciler İçin DevOps Kavramları
+DevOps’un kavramını, amaçlarını, temel bir altyapıyı, ekipler üzerindeki etkisini, modern ve geleneksel yaşam döngüsü yönetimi farkını, ölçeklenebilir ortamlar oluşturmayı öğrenmiş olacaksınız.
+[https://cbarkinozer.medium.com/yaz%C4%B1l%C4%B1m-geli%C5%9Ftiriciler-i%CC%87%C3%A7in-devops-kavramlar%C4%B1-a250ed3b45fb]
+3. Yazılım Geliştiriciler İçin Test Kavramları
+Yazılım geliştirme yaşam döngüsündeki test odaklı geliştirme (TDD), davranış odaklı geliştirme (BDD), sürekli test (CTe) ve sürekli eğitim (CT) gibi kavramları öğreniyoruz.
+[https://cbarkinozer.medium.com/yaz%C4%B1l%C4%B1m-geli%C5%9Ftiriciler-i%CC%87%C3%A7in-test-kavramlar%C4%B1-01e04dc4f57b]
+4. Uygulama Programlama Arayüzleri Nedir?
+API’ları yani Uygulama Programlama Arayüzlerini tanıyoruz.
+[https://cbarkinozer.medium.com/uygulama-programlama-aray%C3%BCzleri-nedir-035a57face93]
+5. Modelden Üretime Makine Öğrenmesi Süreci
+MLOps, veri operasyonları ve AWS SageMaker ile modellerin geliştirilmesinden üretime alınmasına kadar tüm yaşam döngüsünü keşfediyoruz.
+[https://cbarkinozer.medium.com/modelden-%C3%BCretime-makine-%C3%B6%C4%9Frenmesi-s%C3%BCreci-947c28d525d8]
+6. Mutlak Sıfır: Sıfır Veriyle Güçlendirilmiş Öz-Oyun Mantığı
+Çok ses getiren “Absolute Zero: Reinforced Self-play Reasoning with Zero Data” makalesini Türkçe inceliyoruz.
+[https://cbarkinozer.medium.com/mutlak-s%C4%B1f%C4%B1r-s%C4%B1f%C4%B1r-veriyle-g%C3%BC%C3%A7lendirilmi%C5%9F-%C3%B6z-oyun-mant%C4%B1%C4%9F%C4%B1-dbadac1aa371]
+7. YZ ile Derin Araştırma (Deep Research) Nasıl Yapılır?
+Yeni çıkan Deep Research özelliğini inceliyoruz.
+[https://medium.com/softtechas/yz-ile-derin-ara%C5%9Ft%C4%B1rma-deep-research-nas%C4%B1l-yap%C4%B1l%C4%B1r-4837cf3e101b]
+8. Sıfırdan Bir GPT Modeli Nasıl Eğitilir?
+Kendi 1.4M parametreli GPT modemizi geliştirip eğiterek LLM’lerin arkasındaki teknolojiyi daha iyi anlıyoruz.
+[https://cbarkinozer.medium.com/s%C4%B1f%C4%B1rdan-bir-gpt-modeli-nas%C4%B1l-e%C4%9Fitilir-7288a3a0b638]
+9. Temel Seviye Svelte
+Svelte’in geliştiriciler tarafından bu kadar sevilmesini sağlayan ve onu diğer önyüz çerçevelerinden farklı kılan şeyin ne olduğunu inceliyoruz.
+[https://cbarkinozer.medium.com/temel-seviye-svelte-3716384cebde]
+10. Beyaz Yaka‘nın Geleceği: Sentor Mu Siborg Mu?
+Üretken yapay zekanın gelişiminin beyaz yakalar için anlamı ne?
+[https://cbarkinozer.medium.com/beyaz-yaka-n%C4%B1n-gelece%C4%9Fi-sentor-mu-siborg-mu-3953a3654990]
+11. Kullanıcı Deneyimi Tasarımına Giriş
+Temel düzeyde UI/UX (KA: Kullanıcı Arayüzü / KD: Kullanıcı Deneyimi) bilgisini keşfederken, UX'in BT projelerine etkilerini, entegrasyon biçimlerini ve doğru yöntem seçimlerini inceliyoruz.
+[https://cbarkinozer.medium.com/kullan%C4%B1c%C4%B1-deneyimi-tasar%C4%B1m%C4%B1na-giri%C5%9F-402f6953dd74]
+
+Haziran 2025
+1. Muhakeme Modelleri'nin Düşünme Yanılsaması
+“The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity” makalesini Türkçe inceliyoruz.
+[https://cbarkinozer.medium.com/muhakeme-modellerinin-d%C3%BC%C5%9F%C3%BCnme-yan%C4%B1lsamas%C4%B1-f6d3e08133b2]
+2. Sıfırdan Difüzyon Modeli Nasıl Yapılır?
+Verdiğimiz etiketlere göre yeni emojiler oluşturabilen bir difüzyon modeli yapıyoruz.
+[https://medium.com/softtechas/s%C4%B1f%C4%B1rdan-dif%C3%BCzyon-modeli-nas%C4%B1l-yap%C4%B1l%C4%B1r-0182586c728c]
+3. Otonom Sürüş'te Tramvay Problemleri
+Etik teknoloji felsefesi alanında popüler olan 'Tramvay problemleri otonom sürüşle ilgili mi? sorusunun cevabını arıyoruz.
+[https://cbarkinozer.medium.com/otonom-s%C3%BCr%C3%BC%C5%9Fte-tramvay-problemleri-8ec91baca6ec]
+4. Voltaire'e Göre İnsan Bilebilir Mi?
+Voltaire'in "Cahil Filozof" (Le Philosophe Ignorant) kitabının özetidir.
+[https://cbarkinozer.medium.com/voltairee-g%C3%B6re-i%CC%87nsan-bilebilir-mi-d11da7346780]
+5. Temel Seviye SvelteKit
+SvelteKit çerçevesini tanıyoruz.
+[https://cbarkinozer.medium.com/temel-seviye-sveltekit-aa224f0c24e5]
+6. Sıfırdan Kendi Tokenizer'ımızı Geliştiriyoruz
+Kendi belirteçleştiricimizi yaparak arkada çalışan mimariyi derinlemesine öğreniyoruz.
+[https://medium.com/softtechas/s%C4%B1f%C4%B1rdan-kendi-tokenizer%C4%B1m%C4%B1z%C4%B1-geli%C5%9Ftiriyoruz-e043a68d7971]
+7. LLM ile Birim Test Üretimi 2. Bölüm
+YZ ile birim testi üretimi makalelerini incelediğimiz serinin son yazısıdır.
+[https://cbarkinozer.medium.com/llm-ile-birim-test-%C3%BCretimi-2-b%C3%B6l%C3%BCm-69ac13badc60]

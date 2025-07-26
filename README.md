@@ -1,83 +1,82 @@
-# thought-mapper
+# Thought Mapper
 
-In an era of rapid information growth, we are generating content faster than we can organize it. Thought Mapper is a project designed to tackle this challenge by creating an automated system to analyze and structure textual data, transforming it into a connected web of knowledge.
+In an era of rapid information growth, we generate content across multiple platforms faster than we can organize it. Thought Mapper is a powerful tool designed to solve this problem by automatically ingesting, analyzing, and structuring your digital footprint into a unified, interconnected knowledge graph.
 
-This initial version focuses on helping users understand their own digital footprint by converting their Twitter archive into a personal Zettelkasten within Obsidian. By automatically clustering tweets into emergent themes and finding semantic similarities, this tool provides a unique way to visualize and connect thoughts and ideas shared over time.
+This project transforms your scattered content from **X (Twitter), Medium, and YouTube** into a personal Zettelkasten within Obsidian. By using AI to assign relevant topics to every piece of content, it provides a unique way to visualize, connect, and rediscover your own thoughts and ideas over time.
 
-The long-term goal is to evolve Thought Mapper into a versatile tool that can analyze and map any collection of text—be it personal notes, company documentation, or even code repositories—to help individuals and teams navigate and generate insights from their knowledge bases.
+**Project Status: Complete.** The script successfully ingests data from multiple sources and generates a fully-functional, platform-aware Obsidian vault.
 
-**Project Status: Core functionality is complete. The script successfully generates an Obsidian vault from a `tweets.js` file.**
+## How to Use: Your Unified Knowledge Graph in 4 Steps
 
-## How to Use (Getting Started)
+### Step 1: Gather Your Data
 
-Follow these steps to generate your own thought map.
+You will need to provide the source files for the content you want to map.
 
-### 1. Get Your Twitter Archive
+*   **For X (Twitter):**
+    *   Request your archive from your X "Settings".
+    *   Find the `tweets.js` file inside the `data` subfolder.
+    *   Place `tweets.js` in the root of the project folder.
+*   **For Medium:**
+    *   Create a text file named `articles.txt`.
+    *   Copy and paste your article summaries into this file. The script is designed to parse the specific format used during development.
+    *   Place `articles.txt` in the root of the project folder.
+*   **For YouTube:**
+    *   The project includes a separate script to fetch your video data automatically using the YouTube Data API.
 
-Before you begin, you need the `tweets.js` file that contains all your tweet data.
-
-*   Navigate to your Twitter "Settings and privacy".
-*   Go to "Your account" and select "Download an archive of your data".
-*   You will receive an email when your archive is ready. Download the `.zip` file.
-*   Extract the archive and find the **`tweets.js`** file inside the `data` subfolder.
-
-### 2. Set Up the Project
+### Step 2: Configure the Project
 
 *   **Clone the Repository:**
     ```bash
     git clone https://github.com/cbarkinozer/thought-mapper.git
     cd thought-mapper
     ```
-*   **Place Your Data:** Copy the `tweets.js` file you downloaded into the root of this `thought-mapper` project folder.
-
 *   **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
+*   **Define Your Topics:** Create a file named `topics.txt` and list all the categories you want to sort your content into, with one topic per line. This is the "brain" of the categorization.
+*   **Set Up API Key (for YouTube):**
+    *   Follow a guide to get a "YouTube Data API v3" key from the Google Cloud Console.
+    *   Create a file named `.env` in the project root.
+    *   Add your key to the file like this: `YOUTUBE_API_KEY=AIzaSy...your...key...`
 
-### 3. Run the Analysis
+### Step 3: Run the Scripts
 
-Execute the main script from your terminal. The process may take a few minutes depending on the number of tweets and your computer's performance.
+The process is in two parts.
 
-```bash
-python app.py
-```
+*   **First, fetch your YouTube data:**
+    ```bash
+    python fetch_youtube_data.py
+    ```
+    This will create a `youtube_videos.json` file in your project folder.
 
-The script will print its progress as it moves through the pipeline. When it's finished, you will have a new folder named `obsidian_vault` in your project directory.
+*   **Now, generate your vault:**
+    ```bash
+    python app.py
+    ```
+    This script will process all your data sources (`tweets.js`, `articles.txt`, `youtube_videos.json`) and generate a complete Obsidian vault in a new folder named `obsidian_vault`.
 
-### 4. Open Your Knowledge Graph in Obsidian
+### Step 4: Open and Explore Your Vault
 
 *   Open the Obsidian application.
-*   Click **"Open another vault"**.
-*   Select **"Open folder as vault"**.
-*   Navigate to and select the `obsidian_vault` folder that was just created.
-
-You can now explore your tweets as a network of interconnected notes. Use the Graph View in Obsidian to see a visual representation of your thought clusters!
+*   Click **"Open folder as vault"** and select the `obsidian_vault` folder.
+*   Open the **Graph View** to see a visual map of your thoughts.
+*   Go to **Graph View -> Groups** to color-code your notes by topic (e.g., `tag:#ArtificialIntelligence`).
 
 ---
 
 ## How It Works: The AI Pipeline
 
-The script transforms your raw tweets into a connected knowledge graph through a four-stage AI pipeline.
+The script transforms your raw, multi-platform content into a connected knowledge graph through a unified pipeline.
 
-### Stage 1: Ingestion and Cleaning
+1.  **Multi-Source Ingestion:** The pipeline begins by running dedicated parsers for each data source (`tweets.js`, `articles.txt`, `youtube_videos.json`). Each parser cleans the data and transforms it into a standard format, noting the original platform.
 
-The process begins by reading the `tweets.js` file. Each tweet's text is extracted and passed through a cleaning function that removes digital noise (like URLs and mentions) which could interfere with the analysis. This ensures the AI models focus only on the meaning of your words.
+2.  **Guided Categorization (Zero-Shot Classification):** This is the core of the AI. Instead of guessing themes, the system uses a powerful **Sentence Transformer** model (`all-MiniLM-L6-v2`) to perform semantic search. It converts every piece of your content and every user-defined topic from `topics.txt` into numerical vectors. Then, for each content item, it finds the most semantically similar topics and assigns them. This "human-in-the-loop" approach ensures high accuracy and meaningful categories.
 
-### Stage 2: Semantic Embedding
-
-This is the core of the AI analysis. We use a powerful **Sentence Transformer** model (`all-MiniLM-L6-v2`) to convert each cleaned tweet into a high-dimensional vector (an "embedding"). These vectors mathematically represent the semantic meaning of the text, allowing tweets with similar ideas—even if they use different words—to be numerically close to each other.
-
-### Stage 3: Thematic Clustering
-
-With all tweets represented as vectors, we perform **community detection clustering**. This algorithm analyzes the similarity between all tweet embeddings and automatically groups them into thematic clusters. Unlike other methods, we do not need to specify the number of topics beforehand; the system discovers them organically. Through experimentation, a similarity **threshold of 0.50** was chosen as the optimal value to group a significant portion of tweets into coherent themes without being overly strict.
-
-### Stage 4: Zettelkasten Generation
-
-In the final stage, the script generates the `.md` files for your Obsidian vault:
-1.  **Note Creation:** Each tweet becomes a single Markdown file.
-2.  **Metadata:** YAML frontmatter is added to each note, containing the tweet's original date, the `Cluster_ID` it belongs to (or `Outlier` if it's unique), and a link to the original tweet.
-3.  **Inter-linking:** For each note, the script calculates its similarity to all other notes and automatically inserts `[[wiki-links]]` to the most closely related thoughts, creating the connective tissue of your knowledge graph.
+3.  **Zettelkasten Generation:** In the final stage, the script builds your Obsidian vault:
+    *   **Note Creation:** Every tweet, article, or video becomes a single Markdown file.
+    *   **Rich Metadata:** Each note's YAML frontmatter includes its creation date, original `source` link, and the `platform` it came from (X, Medium, or YouTube).
+    *   **Structural Links:** The assigned topics are added as both `[[wikilinks]]` for structural navigation and as `#tags` in the note body, making them instantly available for filtering and color-coding in Obsidian's Graph View.
 
 ---
 
@@ -85,8 +84,9 @@ In the final stage, the script generates the `.md` files for your Obsidian vault
 
 This project provides a solid foundation. Future versions could include:
 
-*   **LLM-Powered Topic Naming:** Use a Large Language Model (like GPT or Llama) to automatically generate descriptive names for each cluster (e.g., "AI and the Future" instead of "Cluster_1").
-*   **Guided Clustering Mode:** Allow users to provide their own category labels (e.g., "Work," "Philosophy") and have the system sort tweets into those predefined buckets.
-*   **Advanced Clustering Algorithms:** Implement more sophisticated algorithms like HDBSCAN for potentially more nuanced cluster detection.
-*   **Web User Interface:** Create a simple UI with Streamlit or Flask where a user can upload their archive file directly, making the tool more accessible.
-*   **Support for More Data Sources:** Expand the pipeline to analyze other text sources, such as personal notes, documents, or even other social media archives.
+*   **User Interface (UX):** The highest priority is to build a simple web interface using Streamlit or Flask. This would allow users to upload their files and manage topics without using the command line.
+*   **Deeper AI Analysis:**
+    *   **Automated Summaries:** Use a Large Language Model (LLM) to write a summary for each major topic hub.
+    *   **Semantic Note Linking:** Re-implement logic to find and create links between individual notes that are highly similar, creating a denser, more interconnected graph.
+*   **Expanded Data Sources:** Create new parsers to ingest data from other sources like Goodreads, Pocket, RSS feeds, or local document folders.
+*   **Deployment:** Containerize the application with Docker and deploy it as a public web service, allowing anyone to map their own digital footprint.

@@ -8,8 +8,13 @@ Cryptocurrencies
 Coding
 Computer Science
 Computer Engineering
+Cyber Security
 Data Science
+Deep Learning
+Diffusion Models
 Economy
+Education
+Ethics
 Finance
 Framework
 Futurism
@@ -17,6 +22,10 @@ Generative AI
 Hardware
 Human Behavior
 Human Language
+Large Language Models
+LLM
+LLM Ethics
+LLM Security
 Life Advice
 Machine Learning
 Mathematics
@@ -26,12 +35,18 @@ Programming
 Python
 Prompt Engineering
 Psychology
+Pytorch
+Retrieval Augmented Generation
+Reinforcement Learning
 Questions
 Quotes
+Scientific Paper
 Self-Reflection
 Sociology
 Software Development Tools
 Software Engineering
 Statistics
 Technology
+Technology News
 Terminology and Translations
+Vector Databases

@@ -1,2 +1,5 @@
 sentence-transformers==5.0.0
 scikit-learn==1.7.1
+tqdm==4.67.1
+google-api-python-client==2.177.0
+python-dotenv==1.1.1
