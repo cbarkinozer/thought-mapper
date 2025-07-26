@@ -1,8 +1,6 @@
 # thought-mapper
 
-Of course, I can help you with your "thought mapper" project. It's an ambitious and exciting endeavor! Here is a detailed README file that outlines all the necessary steps.
-
-Thought Mapper is a project designed to help users export, analyze, and understand their Twitter data. By categorizing, clustering, and finding semantic similarities between tweets, this tool will enable users to create a Zettelkasten in Obsidian. This will provide a unique way to visualize and connect their thoughts and ideas shared over time. The ultimate goal is to automate and deploy this process, making it accessible to a wider audience.
+Thought Mapper is a project designed to help users export, analyze, and understand their data. By automatized categorizing, clustering, and finding semantic similarities between text, this tool will enable users to create a Zettelkasten in Obsidian. This will provide a unique way to visualize and connect their thoughts and ideas shared over time. The ultimate goal is to automate and deploy this process, making it accessible to a wider audience.
 
 ## Project Goals
 
@@ -15,7 +13,7 @@ Thought Mapper is a project designed to help users export, analyze, and understa
 
 ## Phase 1: Data Acquisition - Getting Your Tweets
 
-The first step is to obtain your Twitter data. Twitter allows you to download an archive of all your activity on the platform.
+The first step is to obtain Twitter data. Twitter allows you to download an archive of all your activity on the platform.
 
 ### **To-Do:**
 
