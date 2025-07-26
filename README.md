@@ -4,6 +4,15 @@ In an era of rapid information growth, we generate content across multiple platf
 
 This project transforms your scattered content from **X (Twitter), Medium, and YouTube** into a personal Zettelkasten within Obsidian. By using AI to assign relevant topics to every piece of content, it provides a unique way to visualize, connect, and rediscover your own thoughts and ideas over time.
 
+
+## Graph Creation
+
+[![Watch the video](https://img.youtube.com/vi/OrWN4oCuk8s/0.jpg)](https://www.youtube.com/watch?v=OrWN4oCuk8s&lc=UgzKV9DMvURdDDkjBnx4AaABAg)
+
+## Nodes
+
+[![Watch the video](https://img.youtube.com/vi/yZVWtiCFYUI/0.jpg)](https://www.youtube.com/watch?v=yZVWtiCFYUI)
+
 **Project Status: Complete.** The script successfully ingests data from multiple sources and generates a fully-functional, platform-aware Obsidian vault.
 
 ## How to Use: Your Unified Knowledge Graph in 4 Steps
